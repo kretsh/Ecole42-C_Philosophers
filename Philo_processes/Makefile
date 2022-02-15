@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = philo_bonus
+NAME = philo
 
 SRCS = 	main.c parse_utils.c philo_processes_utils.c philo_processes.c\
 
