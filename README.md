@@ -1,20 +1,19 @@
-# Задача об обедающих философах
-### О чем вообще задача: [wikipedia](https://ru.wikipedia.org/wiki/Задача_об_обедающих_философах) <br>
-В моем решение задача решается двумя способами: Threads (потоки) и Процессы. [Содержание поставленной задачи](https://cdn.intra.42.fr/pdf/pdf/41346/en.subject.pdf) <br>
-Независимо от выбранного решения, запуск производится следующим образом:
+# Dining philosophers problem
+### ABOUT THE TASK: [wikipedia](https://en.wikipedia.org/wiki/Dining_philosophers_problem) <br>
+Subject prescribes 2 ways of implementation: Threads и Processes. [The subject](https://cdn.intra.42.fr/pdf/pdf/41346/en.subject.pdf) <br>
+Regardless of the chosen solution, the launch is as follows:
 > cd Philo_pthreads (or Philo_Processes) <br>
-> make && ./philo 10 410 200 200 <br>
+> make && ./philo 10 410 200 200 <br> 
 
-Параметры выше переданы как пример можно задать собственные:<br>
-1) Количество философов <br>
-2) Время* до смерти (без еды) <br>
-3) Время* проведения трапезы <br>
-4) Время* для сна <br>
-
-5) Опциональный параметр (количество итераций еды) <br>
-* время в милисекундах
+The parametrs above is example. You might put your own parametrs:<br>
+1) Amount of Philosophers <br>
+2) Time* to die <br>
+3) Time* to eat <br>
+4) Time* to sleep <br>
+5) Number of eating iterations (Optional parametr)<br>
+* Time based in milliseconds.
 
 
 <img width="996" alt="Screenshot 2022-02-16 at 01 36 40" src="https://user-images.githubusercontent.com/28803066/154161457-4736bf84-d242-421c-a295-347fbec01cf0.png">
 
-[Визуализатор (расшифровщик outputa)](https://nafuka11.github.io/philosophers-visualizer/)
+[Visualizer. Just put the output overhere](https://nafuka11.github.io/philosophers-visualizer/)
